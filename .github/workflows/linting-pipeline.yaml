@@ -1,4 +1,4 @@
-code .github/workflows/linting-pipeline.yaml
+
 name: Linting Workflow
 on:
   push:
