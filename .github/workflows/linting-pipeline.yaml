@@ -9,6 +9,7 @@ on:
       - develop
 
 jobs:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Welcome Message
@@ -29,4 +30,4 @@ jobs:
         run: npx htmlhint "/*.html"
 
       - name: Run Stylelint
-        run: npx stylelint "/*.css"
+        run: npx stylelint "/*.css"
