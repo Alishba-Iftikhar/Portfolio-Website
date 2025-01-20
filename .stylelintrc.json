@@ -1,4 +1,3 @@
-code .stylelintrc.json
 {
   "rules": {
     "declaration-block-no-duplicate-properties": true,
@@ -9,3 +8,4 @@ code .stylelintrc.json
     "block-no-empty": true
   }
 }
+
